@@ -70,6 +70,8 @@ class OssBucket extends Component
         foreach ($args as $argKey => $argValue) {
             if (is_array($argValue)) {
                 $argStrArray[] = "{$argKey}=" . self::formatArgs($argValue);
+            } else {
+                $argStrArray[] = "{$argKey}={$argValue}";
             }
         }
         return join(',', $argStrArray);
