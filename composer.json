@@ -4,7 +4,7 @@
     "type": "yii2-extension",
     "require": {
         "aliyuncs/oss-sdk-php": "^2.3",
-        "yiisoft/yii2": "2.0.15.1"
+        "yiisoft/yii2": "^2.0"
     },
     "license": "MIT",
     "authors": [
