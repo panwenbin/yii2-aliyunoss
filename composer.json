@@ -1,0 +1,34 @@
+{
+    "name": "panwenbin/yii2-aliyunoss",
+    "description": "Yii2 component for aliyun oss",
+    "type": "yii2-extension",
+    "require": {
+        "aliyuncs/oss-sdk-php": "^2.3",
+        "yiisoft/yii2": "2.0.15.1"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Pan Wenbin",
+            "email": "panwenbin@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "autoload": {
+        "psr-4": {
+            "panwenbin\\yii2\\aliyunoss\\": "src"
+        }
+    },
+    "config": {
+        "process-timeout": 1800,
+        "fxp-asset": {
+            "enabled": false
+        }
+    },
+    "repositories": [
+        {
+            "type": "composer",
+            "url": "https://asset-packagist.org"
+        }
+    ]
+}
